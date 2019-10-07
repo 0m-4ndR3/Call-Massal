@@ -42,6 +42,11 @@ no7 = input("%s[?] NUM TARGET7 => %s"%(g,w))
 no8 = input("%s[?] NUM TARGET8 => %s"%(g,w))
 no9 = input("%s[?] NUM TARGET9 => %s"%(g,w))
 no10 = input("%s[?] NUM TARGET10 => %s"%(g,w))
+no11 = input("%s[?] NUM TARGET11 => %s"%(g,w))
+no12 = input("%s[?] NUM TARGET12 => %s"%(g,w))
+no13 = input("%s[?] NUM TARGET13 => %s"%(g,w))
+no14 = input("%s[?] NUM TARGET14 => %s"%(g,w))
+no15 = input("%s[?] NUM TARGET15 => %s"%(g,w))
 jlmh=int(input("%s[?] JUMLAH SPAM => %s"%(g,w)))
 
 try:
@@ -51,7 +56,7 @@ try:
 	for i in range(jlmh):
 		cout=1
 		print(f"{'{'}{i+1}{'}'}"+"="*40+f"{'{'}{i+1}{'}'}")
-		for i in no1,no2,no3,no4,no5,no6,no7,no8,no9,no10:
+		for i in no1,no2,no3,no4,no5,no6,no7,no8,no9,no10,no11,no12,no13,no14,no15:
 			if i == '':
 				cout+=1
 				continue
